@@ -1,6 +1,7 @@
 {
   "main": "node_modules/expo/AppEntry.js",
   "scripts": {
+    "initialize": "npm install && expo update 35.0.0 &&  npm install --save react-native-gesture-handler react-native-screens",
     "start": "expo start",
     "android": "expo start --android",
     "ios": "expo start --ios",
@@ -8,7 +9,6 @@
     "eject": "expo eject"
   },
   "dependencies": {
-    "initialize": "expo update 35.0.0 && npm install && npm install --save react-native-gesture-handler react-native-screens",
     "@expo/vector-icons": "^10.0.0",
     "expo": "^35.0.0",
     "expo-linear-gradient": "~7.0.0",
